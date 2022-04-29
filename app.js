@@ -7,6 +7,7 @@ const path = require('path');
 const mongoose = require('mongoose');
 const ejsMate = require('ejs-mate');
 const session = require('express-session');
+require('dotenv').config();
 const dbURL = process.env.DB_URL
 
 
