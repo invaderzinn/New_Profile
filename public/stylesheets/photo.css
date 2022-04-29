@@ -1,0 +1,33 @@
+body{
+    /* background: url(https://images.unsplash.com/photo-1622571887863-05410f44c014?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    background:rgba(154, 152, 173, 1) 0%;
+    background: linear-gradient(180deg,
+            rgba(154, 152, 173, 1) 0%,
+            rgba(192, 172, 184, 1) 41%,
+            rgba(228, 198, 193, 1) 80%,
+            rgba(224, 187, 176, 1) 100%);
+    margin-bottom: 8%;
+    line-height: 1.4;
+    
+}
+
+img {
+    width: 30%;
+    margin: calc(10%/6);
+    /* or you can use 1.6666% */
+}
+
+nav {
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 0.5em 0;
+    /* changed the em because it looks better */
+}

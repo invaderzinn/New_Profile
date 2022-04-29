@@ -1,0 +1,342 @@
+body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(40, 0, 62, 1) 41%,
+            rgba(61, 0, 94, 1) 80%,
+            rgba(112, 0, 173, 1) 100%);
+    margin: 0;
+    line-height: 1.4;
+
+}
+
+p {
+    font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.container {
+    margin-bottom: 5%;
+    /* border: solid 5px black; */
+}
+
+
+.hi {
+    background: -webkit-linear-gradient(rgb(254, 209, 126), rgb(230, 63, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    text-shadow: rgb(249, 89, 49) 0px 0px 20px;
+}
+
+#hey{
+    -webkit-text-stroke: 2px rgb(128, 3, 3);
+}
+
+.lauren{
+    -webkit-text-stroke: 1.5px rgb(10, 84, 101);
+    font-size: 40px;
+}
+
+h2 {
+    background: -webkit-linear-gradient(rgb(26, 243, 214), rgb(9, 115, 157) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: rgb(96, 182, 213) 0px 0px 20px
+
+}
+
+.front{
+    background: -webkit-linear-gradient(rgb(26, 243, 214), rgb(9, 115, 157) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.day{
+    background: -webkit-linear-gradient(rgb(254, 209, 126), rgb(230, 63, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cone {
+    max-height: 25px;
+}
+
+
+.row{
+    /* border: solid 5px black;  */
+}
+
+
+#headerSection {
+    background-image: url(https://images.unsplash.com/photo-1560762484-813fc97650a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+    background-repeat: contain;
+    padding-bottom: 10px;
+    /* margin-left: 12rem; */
+    /* margin-bottom: 20%; */
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    max-width: 800px;
+    height: 400px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #792376;
+    
+}
+
+
+#profile {
+    border-radius: 10px 40px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 10px 5px #1c0331;
+
+
+}
+
+#mintSec{
+    max-width: 800px;
+    
+}
+
+.mint {
+    border: outset rgb(33, 1, 50) 5px;
+    max-width: 800px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    margin-bottom: 5%;
+    border-radius: 40px 10px;
+    border-width: 10px 4px;
+    font-size: 22px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #23032b;
+}
+
+.skills {
+    text-align: right;
+}
+
+/* .icon {
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display:grid;
+} */
+
+/* .copy{
+    padding-bottom: 10%;
+    padding-top: 10%;
+} */
+.icon {
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display:grid;
+}
+
+.writer{
+    padding-bottom: 5%;
+    /* padding-top: 4%; */
+}
+
+
+.right{
+    /* border: outset rgb(57, 26, 1) 5px; */
+    /* max-width: 800px; */
+    padding: 20px 10px;
+    margin-bottom: 5%;
+    /* border-radius: 40px 10px;
+    border-width: 10px 4px; */
+    text-align: center;
+    max-height: 350px;
+}
+
+.space {
+    /* padding-top: 10%; */
+    /* border: inset rgb(1, 41, 57) 5px; */
+    /* max-width: 800px; */
+    padding: 20px 10px;
+    /* padding-bottom: 30px; */
+    margin-bottom: 5%;
+    /* border-radius: 10px 40px;
+    border-width: 4px 10px; */
+    max-height: 300px;
+
+}
+
+#four{
+    padding: 20px 5px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 10px; */
+    margin-bottom: 5%;
+    /* border-radius: 40px 10px;
+    border-width: 10px 4px; */
+    text-align: center;
+    max-height: 350px;
+}
+
+
+.color {
+    margin-top: 5%;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #23032b;
+    border-radius: 15px;
+}
+
+.yelp{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.card-img-top {
+    width: 50px;
+    height: 200px;
+}
+
+.card-title {
+    font-family: 'Special Elite', cursive;
+
+}
+
+.myButton {
+    font-size: 16px;
+    color: white;
+    line-height: 16px;
+    text-align:center;
+    border: none;
+    background-size: 200% auto;
+    padding: 13px;
+    border-radius: 20px;
+    -moz-animation: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    font-family: 'Zilla Slab', serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    
+    background-image: linear-gradient(45deg, rgb(69, 12, 120) 0%, rgb(246, 54, 87) 70%, rgb(241, 92, 30) 100%);
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    display: inline-block;
+}
+
+
+.myButton:hover {
+    background-position: 100% 0;
+    -moz-animation: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    margin: 8px 10px 12px;
+}
+
+
+.card-text {
+    font-size: 15px;
+}
+
+.gif {
+    display: block;
+    width: 120px;
+    height: 120px;
+}
+
+
+
+.noHover{
+    pointer-events: none;
+}
+
+/* .right2 {
+    text-align: right;
+} */
+
+
+.icon2{
+    padding-bottom: 5%;
+
+}
+
+.icons-5 {
+    display: inline;
+    font-family: 'Special Elite', cursive;
+    text-shadow: rgb(51, 1, 79) 0px 0px 20px;
+}
+
+
+.footer-text {
+    margin-bottom: 0px;
+    margin-left: 2em;
+    font-size: .7rem;
+    font-weight: 300;
+    text-align: start;
+}
+
+
+
+@media(max-width: 700px){
+    .copy{
+        padding-top: 0px;
+    }
+    #four{
+        padding-bottom: 0px;
+    }
+    .last{
+        margin-top: 0px;
+    }
+}
+
+@media(max-width: 400px){
+    #presentation{
+        padding-top: 10%;
+    }
+    #coding{
+        padding-top: 20%;
+    }
+    .last{
+        margin-top: 0px;
+    }
+}
+
+@media(max-width: 600px){
+    .copy{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+}
+
+@media(max-width: 1000px){
+    .copy{
+        margin-top: 50%;
+        padding-bottom: 10%;
+    }
+    #four{
+        padding-top: 0px;
+    }
+    .last{
+        padding-top: 15%;
+    }
+    .space{
+        margin-bottom: 15%;
+        padding-top: 0px;
+    }
+
+}
+
+
+
+
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");

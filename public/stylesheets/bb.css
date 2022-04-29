@@ -1,0 +1,265 @@
+body,
+html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Cormorant Unicase';
+}
+
+.border {
+    font-family: 'Josefin Slab', serif;
+
+}
+
+.border5 {
+    font-family: 'Josefin Slab', serif;
+}
+
+.ptext .border {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+
+}
+
+.border5 {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    opacity: .7;
+}
+
+.ptext {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.ptext2 .border2 {
+    background-color: black;
+    color: #ee964b;
+    padding: 20px;
+    opacity: 60%;
+}
+
+
+
+.ptext2 {
+    position: relative;
+    top: 50%;
+    /* width: 100%; */
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    font-size: 27px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.ptext3 .border3 {
+    background-color: black;
+    color: #577590;
+    padding: 20px;
+    opacity: 60%;
+}
+
+.ptext3 {
+    position: relative;
+    top: 50%;
+    /* width: 100%; */
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    font-size: 27px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.ptext4 .border4 {
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+    padding: 20px
+}
+
+.ptext4 {
+    position: relative;
+    top: 50%;
+    /* width: 100%; */
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    font-size: 27px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.section-light {
+    background-color: black;
+    color: rgb(66, 64, 64);
+
+}
+
+h2 {
+    color: rgb(59, 59, 87);
+    font-family: 'Cormorant Unicase', serif;
+    letter-spacing: 2.5px;
+    font-size: 35px;
+    font-weight: 200;
+}
+
+h2:before {
+    display: block;
+    content: "";
+    margin-top: -285px;
+    height: 285px;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.icon {
+    color: rgb(59, 59, 87);
+    font-size: large;
+}
+
+.section {
+    text-align: center;
+    padding: 30px 80px;
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+}
+
+.contact {
+    color: blue;
+}
+
+img {
+    max-height: 5rem;
+    position: relative;
+    opacity: .7;
+
+}
+
+.copy {
+    font-size: 10px;
+    padding-top: 5%;
+}
+
+/* img {
+    border-radius: 50%;
+    max-height: 10rem;
+    width: 15%;
+    margin: auto;
+    display: block;
+    position: relative;
+    text-align: center;
+    top: 50%;
+
+
+} */
+
+.parallax {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1558467778-122dbb038e3b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    opacity: 0.80;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1611721323975-429156c7f24d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1616410080709-f3514d88666a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80");
+
+    /* Full height */
+    height: 80%;
+
+    /* Create the parallax scrolling effect */
+    opacity: 0.80;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1558467778-122dbb038e3b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    /* opacity: 0.70; */
+    opacity: 0.80;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ptext4 .border4 {
+    background-color: black;
+    color: white;
+    padding: 20px
+}
+
+/* navbar and bootstrap stuff below this line */
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+
+}
+
+#mainNavbar .nav-link {
+    color: black;
+    font-size: 20px;
+}
+
+#mainNavbar .navbar-brand {
+    /* color: purple; */
+    font-size: 1.7rem;
+    font-family: 'Josefin Slab';
+}
+
+#mainNavbar .nav-link:hover {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+    background-color: rgb(59, 59, 87);
+    transition: background 1s;
+    opacity: .8;
+}
+
+
+#mainNavbar .symbol {
+    position: sticky;
+    margin-top: 6px;
+    color: gold;
+
+}
