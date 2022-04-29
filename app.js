@@ -7,10 +7,10 @@ const path = require('path');
 const mongoose = require('mongoose');
 const ejsMate = require('ejs-mate');
 const session = require('express-session');
-// const dbURL = process.env.DB_URL
+const dbURL = process.env.DB_URL
 
 
-mongoose.connect('mongodb+srv://StartUpCluster1:1yessir4827@startupcluster.mv3af.mongodb.net/Profile?retryWrites=true&w=majority', {
+mongoose.connect(dbURL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
