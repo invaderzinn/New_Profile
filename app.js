@@ -71,70 +71,70 @@ const sessionConfig = {
 }
 
 
-// const scriptSrcUrls = [
-//     "https://cdn.jsdelivr.net/",
-//     "https://stackpath.bootstrapcdn.com/",
-//     "https://kit.fontawesome.com/",
-//     "http://fonts.googleapis.com/*",
-//     "http://fonts.gstatic.com/*",
-//     `https://res.cloudinary.com/${process.env.CLOUDINARY}`,
-//     "http://c1.staticflickr.com/*",
-//     "http://c2.staticflickr.com/",
-//     "https://content.fortune.com/wp-content/uploads/2020/08/AP20242071038593.jpg",
-//     "https://giphy.com/gifs/people-hd-gifsremastered-10Jpr9KSaXLchW",
+const scriptSrcUrls = [
+    "https://cdn.jsdelivr.net/",
+    "https://stackpath.bootstrapcdn.com/",
+    "https://kit.fontawesome.com/",
+    "http://fonts.googleapis.com/*",
+    "http://fonts.gstatic.com/*",
+    `https://res.cloudinary.com/${process.env.CLOUDINARY}`,
+    "http://c1.staticflickr.com/*",
+    "http://c2.staticflickr.com/",
+    "https://content.fortune.com/wp-content/uploads/2020/08/AP20242071038593.jpg",
+    "https://giphy.com/gifs/people-hd-gifsremastered-10Jpr9KSaXLchW",
     
 
 
-// ];
+];
 
-// const styleSrcUrls = [
-//     "https://cdn.jsdelivr.net/",
-//     "https://stackpath.bootstrapcdn.com/",
-//     "https://kit.fontawesome.com/",
-//     "http://fonts.googleapis.com/*",
-//     "http://fonts.gstatic.com/*",
-//     `https://res.cloudinary.com/${process.env.CLOUDINARY}`,
-//     "http://c1.staticflickr.com/",
-//     "http://c2.staticflickr.com/",
-//     "https://content.fortune.com/wp-content/uploads/2020/08/AP20242071038593.jpg",
-//     "https://giphy.com/gifs/people-hd-gifsremastered-10Jpr9KSaXLchW",
-//     "https://giphy.com/embed/10Jpr9KSaXLchW"
+const styleSrcUrls = [
+    "https://cdn.jsdelivr.net/",
+    "https://stackpath.bootstrapcdn.com/",
+    "https://kit.fontawesome.com/",
+    "http://fonts.googleapis.com/*",
+    "http://fonts.gstatic.com/*",
+    `https://res.cloudinary.com/${process.env.CLOUDINARY}`,
+    "http://c1.staticflickr.com/",
+    "http://c2.staticflickr.com/",
+    "https://content.fortune.com/wp-content/uploads/2020/08/AP20242071038593.jpg",
+    "https://giphy.com/gifs/people-hd-gifsremastered-10Jpr9KSaXLchW",
+    "https://giphy.com/embed/10Jpr9KSaXLchW"
 
-// ];
+];
 
-// const connectSrcUrls = [
-//     `https://res.cloudinary.com/${process.env.CLOUDINARY}`,
+const connectSrcUrls = [
+    `https://res.cloudinary.com/${process.env.CLOUDINARY}`,
     
-// ];
+];
 
-// const fontSrcUrls = [ `https://res.cloudinary.com/${process.env.CLOUDINARY}`];
+const fontSrcUrls = [ `https://res.cloudinary.com/${process.env.CLOUDINARY}`];
 
-// app.use(
-//     helmet.contentSecurityPolicy({
-//         directives : {
-//             defaultSrc : [],
-//             connectSrc : [ "'self'", ...connectSrcUrls ],
-//             scriptSrc  : [ "'unsafe-inline'", "'self'", "http://fonts.googleapis.com/", "http://fonts.gstatic.com/", ...scriptSrcUrls ],
-//             styleSrc   : [ "'self'", "'unsafe-inline'", "http://fonts.googleapis.com/", "http://fonts.gstatic.com/", ...styleSrcUrls ],
-//             workerSrc  : [ "'self'", "blob:" ],
-//             objectSrc  : [],
-//             imgSrc     : [
-//                 "'self'",
-//                 "blob:",
-//                 "data:",
-//                 `https://res.cloudinary.com/${process.env.CLOUDINARY}`, //SHOULD MATCH YOUR CLOUDINARY ACCOUNT!
-//                 "https://images.unsplash.com/",
-//                 "http://c1.staticflickr.com/",
-//                 "http://c2.staticflickr.com/",
-//                 "https://content.fortune.com/wp-content/uploads/2020/08/AP20242071038593.jpg"
-//             ],
-//             fontSrc    : [ "'self'", "http://fonts.googleapis.com/", "http://fonts.gstatic.com/", ...fontSrcUrls ],
-//             mediaSrc   : [ `https://res.cloudinary.com/${process.env.CLOUDINARY}`],
-//             childSrc   : [ "blob:", 
-//                     "https://giphy.com/embed/10Jpr9KSaXLchW"]
-//         }
-//     })
-// );
+app.use(
+    helmet.contentSecurityPolicy({
+        directives : {
+            defaultSrc : [],
+            connectSrc : [ "'self'", ...connectSrcUrls ],
+            scriptSrc  : [ "'unsafe-inline'", "'self'", "http://fonts.googleapis.com/", "http://fonts.gstatic.com/", ...scriptSrcUrls ],
+            styleSrc   : [ "'self'", "'unsafe-inline'", "http://fonts.googleapis.com/", "http://fonts.gstatic.com/", ...styleSrcUrls ],
+            workerSrc  : [ "'self'", "blob:" ],
+            objectSrc  : [],
+            imgSrc     : [
+                "'self'",
+                "blob:",
+                "data:",
+                `https://res.cloudinary.com/${process.env.CLOUDINARY}`, //SHOULD MATCH YOUR CLOUDINARY ACCOUNT!
+                "https://images.unsplash.com/",
+                "http://c1.staticflickr.com/",
+                "http://c2.staticflickr.com/",
+                "https://content.fortune.com/wp-content/uploads/2020/08/AP20242071038593.jpg"
+            ],
+            fontSrc    : [ "'self'", "http://fonts.googleapis.com/", "http://fonts.gstatic.com/", ...fontSrcUrls ],
+            mediaSrc   : [ `https://res.cloudinary.com/${process.env.CLOUDINARY}`],
+            childSrc   : [ "blob:", 
+                    "https://giphy.com/embed/10Jpr9KSaXLchW"]
+        }
+    })
+);
 
 app.use(session(sessionConfig));
 
