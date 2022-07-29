@@ -10,6 +10,7 @@ body {
 
 }
 
+
 p {
     font-family: 'Zilla Slab', serif;
     font-size: 20px;
@@ -36,30 +37,29 @@ h3 {
     text-shadow: rgb(249, 89, 49) 0px 0px 20px;
 }
 
-#hey{
+#hey {
     -webkit-text-stroke: 2px rgb(128, 3, 3);
 }
 
-.lauren{
+.lauren {
     -webkit-text-stroke: 1.5px rgb(10, 84, 101);
     font-size: 40px;
 }
 
 h2 {
-    background: -webkit-linear-gradient(rgb(26, 243, 214), rgb(9, 115, 157) );
+    background: -webkit-linear-gradient(rgb(26, 243, 214), rgb(9, 115, 157));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: rgb(96, 182, 213) 0px 0px 20px
-
 }
 
-.front{
-    background: -webkit-linear-gradient(rgb(26, 243, 214), rgb(9, 115, 157) );
+.front {
+    background: -webkit-linear-gradient(rgb(26, 243, 214), rgb(9, 115, 157));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.day{
+.day {
     background: -webkit-linear-gradient(rgb(254, 209, 126), rgb(230, 63, 3));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -70,7 +70,7 @@ h2 {
 }
 
 
-.row{
+.row {
     /* border: solid 5px black;  */
 }
 
@@ -85,23 +85,23 @@ h2 {
     border-bottom-left-radius: 35px;
     max-width: 800px;
     height: 400px;
-    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
     box-shadow: 5px 5px 15px 5px #792376;
-    
+
 }
 
 
 #profile {
     border-radius: 10px 40px;
-    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
     box-shadow: 5px 5px 10px 5px #1c0331;
 
 
 }
 
-#mintSec{
+#mintSec {
     max-width: 800px;
-    
+
 }
 
 .mint {
@@ -113,7 +113,7 @@ h2 {
     border-radius: 40px 10px;
     border-width: 10px 4px;
     font-size: 22px;
-    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
     box-shadow: 5px 5px 15px 5px #23032b;
 }
 
@@ -136,16 +136,16 @@ h2 {
     max-height: 250px;
     margin-left: auto;
     margin-right: auto;
-    display:grid;
+    display: grid;
 }
 
-.writer{
+.writer {
     padding-bottom: 5%;
     /* padding-top: 4%; */
 }
 
 
-.right{
+.right {
     /* border: outset rgb(57, 26, 1) 5px; */
     /* max-width: 800px; */
     padding: 20px 10px;
@@ -169,7 +169,7 @@ h2 {
 
 }
 
-#four{
+#four {
     padding: 20px 5px;
     /* padding-top: 20px; */
     /* padding-bottom: 10px; */
@@ -183,12 +183,12 @@ h2 {
 
 .color {
     margin-top: 5%;
-    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
     box-shadow: 5px 5px 15px 5px #23032b;
     border-radius: 15px;
 }
 
-.yelp{
+.yelp {
     margin-left: auto;
     margin-right: auto;
 }
@@ -209,7 +209,7 @@ h2 {
     font-size: 16px;
     color: white;
     line-height: 16px;
-    text-align:center;
+    text-align: center;
     border: none;
     background-size: 200% auto;
     padding: 13px;
@@ -223,7 +223,7 @@ h2 {
     text-decoration: none;
     font-style: normal;
     font-variant: normal;
-    
+
     background-image: linear-gradient(45deg, rgb(69, 12, 120) 0%, rgb(246, 54, 87) 70%, rgb(241, 92, 30) 100%);
     box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
     display: inline-block;
@@ -252,7 +252,7 @@ h2 {
 
 
 
-.noHover{
+.noHover {
     pointer-events: none;
 }
 
@@ -261,7 +261,7 @@ h2 {
 } */
 
 
-.icon2{
+.icon2 {
     padding-bottom: 5%;
 
 }
@@ -283,52 +283,59 @@ h2 {
 
 
 
-@media(max-width: 700px){
-    .copy{
+@media(max-width: 700px) {
+    .copy {
         padding-top: 0px;
     }
-    #four{
+
+    #four {
         padding-bottom: 0px;
     }
-    .last{
+
+    .last {
         margin-top: 0px;
     }
 }
 
-@media(max-width: 400px){
-    #presentation{
+@media(max-width: 400px) {
+    #presentation {
         padding-top: 10%;
     }
-    #coding{
+
+    #coding {
         padding-top: 20%;
     }
-    .last{
+
+    .last {
         margin-top: 0px;
     }
 }
 
-@media(max-width: 600px){
-    .copy{
+@media(max-width: 600px) {
+    .copy {
         padding-top: 0px;
         padding-bottom: 0px;
         margin-top: 0px;
         margin-bottom: 0px;
     }
-    
+
 }
 
-@media(max-width: 1000px){
-    .copy{
+@media(max-width: 1000px) {
+    .copy {
         margin-top: 50%;
         padding-bottom: 10%;
     }
-    #four{
+
+    #four {
         padding-top: 0px;
     }
-    .last{
+
+    .last {
         padding-top: 15%;
     }
-    .space{
+
+    .space {
         margin-bottom: 15%;
         padding-top: 0px;
     }
